@@ -1,0 +1,90 @@
+.productInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+    width: 100%;
+    max-width: 500px;
+}
+
+.productInfo_brand{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.productInfo_title{
+    margin-left: 1em;
+    font-weight: 600;
+}
+
+.productInfo_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;    
+}
+
+.productInfo_price-quantity{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+.productInfo_price-quantity-item{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+}
+.productInfo_price-label{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.productInfo_price-value{
+    margin-left: 1em;
+    font-weight: 600;
+}
+.productInfo_quantity-label{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+.productInfo_price-quantity-item1{
+    margin-right: 4em;
+}
+
+.productInfo_cart{
+    display: flex;
+    margin-top: 0.5em;
+}
+
+.productInfo_quantity-op{
+    padding: 0.3em;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: transform 0.4s ease, border 0.4s ease, color 0.4s ease;
+}
+.productInfo_quantity-value{
+    padding: 0.3em;
+    border: 1px solid #ccc;
+    width: 35px;
+    text-align: center;
+}
+.productInfo_quantity-op:hover{
+    transform: scale(1.05);
+    border: 1px solid  #f85555;
+    color:  #f85555;
+}
+
+.productInfo_btn{
+    width: 100%;
+    padding: 1em;
+    background-color: #f85555;
+    color: white;
+    font-size: 1rem;
+    transition: filter 0.4s ease,transform 0.4s ease;
+}
+.productInfo_btn:hover{
+    filter: brightness(1.1);
+    transform: scale(1.01);
+
+}
+

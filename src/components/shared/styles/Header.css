@@ -1,0 +1,38 @@
+.header{
+    position:fixed;
+    top: 0;
+    width: 100%;
+    height: 70px;    
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    z-index: 10000000;
+    
+}
+
+.header_title{
+    padding: 0.3em;
+    transition: color 0.5s ease;
+}
+.header_title:hover{
+    color: var(--red_ptrincipal);
+}
+
+.header_options{
+    display: flex;
+    gap: 1em;
+    padding: 0.3em;
+}
+
+.header_option{
+    margin-top: 1em;
+    transition: color 0.5s ease;
+}
+.header_option:hover{
+    color: var(--red_ptrincipal);
+}
+.header_option:target{
+    color: var(--red_ptrincipal);
+}

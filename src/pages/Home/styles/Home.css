@@ -1,0 +1,24 @@
+.home{
+    margin-top: 70px;
+    padding: 1em;
+    display: flex;
+}
+.home_aside{
+    position: fixed;
+    left: 0;
+    width: 100%px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    gap: 1em;
+}
+.home_seacrh-input{
+    position: absolute;
+    margin-left: 45%;
+    height: 35px;
+    width: 100%;
+    max-width: 250px;
+    text-align: center;
+    opacity: 0.5;
+}

@@ -1,0 +1,15 @@
+.purchases_card{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.purchases{
+    padding: 3em;
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+.purchases h2{
+    text-align: center;
+}

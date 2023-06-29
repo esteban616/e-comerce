@@ -1,0 +1,21 @@
+.filterCategory{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 0.5em;
+}
+
+.filterCategory_items{
+    display: flex;
+    flex-direction: column;
+    opacity: 0.6;
+    margin-left: 10px;
+  
+}
+.filterCategory_item {
+    cursor: pointer;
+}
+
+.filterCategory_item:hover{
+    color: var(--red_ptrincipal);
+}
